@@ -1,0 +1,20 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "20 mm pole - 26 mm socket - full sleeve": {
+      "output_mode": "sleeve", "pole_diameter": "20", "socket_bore_diameter": "26"
+    },
+    "20 mm pole - short fit coupon": {
+      "output_mode": "fit_coupon", "pole_diameter": "20", "socket_bore_diameter": "26"
+    },
+    "19 mm pole - 26 mm socket - full sleeve": {
+      "output_mode": "sleeve", "pole_diameter": "19", "socket_bore_diameter": "26"
+    },
+    "21 mm pole - 26 mm socket - full sleeve": {
+      "output_mode": "sleeve", "pole_diameter": "21", "socket_bore_diameter": "26"
+    },
+    "20 mm pole - smooth comparison coupon": {
+      "output_mode": "fit_coupon", "pole_diameter": "20", "socket_bore_diameter": "26", "rib_count": "0"
+    }
+  }
+}

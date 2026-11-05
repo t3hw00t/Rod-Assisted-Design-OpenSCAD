@@ -1,0 +1,15 @@
+{
+  "slicer": "PrusaSlicer 2.9.6",
+  "layer_height_mm": 0.2,
+  "perimeters": 3,
+  "infill": "100% rectilinear",
+  "supports_enabled": false,
+  "extruding_layers": 207,
+  "filament_mm_by_role": {
+    "Skirt/Brim": 11.55057,
+    "Perimeter": 927.4030200000076,
+    "External perimeter": 1148.9261600000907,
+    "Overhang perimeter": 0.8697700000000008
+  },
+  "qualification": "Diagnostic generic profile only; not calibrated TPU settings or printer-ready G-code"
+}

@@ -1,0 +1,527 @@
+{
+  "openscad": "OpenSCAD version 2025.09.07",
+  "source_sha256": "bf3d99dca4a91ceab847bc1660302d67f3b9213d63a27efbb1ae5fd0c490bd87",
+  "upstream_source_sha256": "b390f26de733a5f40e937fd0eb10a3132c4ab63911c9a0de4473d734b4a4cd55",
+  "scope": "Geometry only; no physical fit, print, creep or load validation",
+  "passed": true,
+  "cases": [
+    {
+      "name": "default",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5044.3942,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "print_orientation",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5044.3942,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          41.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true,
+      "on_bed_and_correct_height": true
+    },
+    {
+      "name": "fit_coupon",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 1729.4157,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          13.6
+        ]
+      ],
+      "triangles": 3840,
+      "degenerate_triangles": 0,
+      "passed": true,
+      "on_bed_and_correct_height": true
+    },
+    {
+      "name": "smooth_baseline",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 8840.0367,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 3928,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "pole_19",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5316.4299,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "pole_21",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 4763.8698,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "six_ribs",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 4779.2524,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 3984,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "ten_ribs",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5314.771,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 5424,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "single_screw",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5077.1703,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 4268,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "no_screws",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5109.9463,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 3840,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "four_screws",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 4978.8421,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -40.0
+        ],
+        [
+          14.1,
+          14.1,
+          1.6
+        ]
+      ],
+      "triangles": 5552,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "large_socket",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5701.5251,
+      "bounds_mm": [
+        [
+          -16.1,
+          -16.1,
+          -40.0
+        ],
+        [
+          16.1,
+          16.1,
+          1.6
+        ]
+      ],
+      "triangles": 4664,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "insufficient_wall",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "backing_wall_interference",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "too_deep_for_stop",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "teardrop_not_supported",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "screw_at_mouth",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "fractional_rib_count",
+      "expectation": "rejected",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "actual_connector",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 116001.7003,
+      "bounds_mm": [
+        [
+          -60.10408,
+          -18.96251,
+          -16.0
+        ],
+        [
+          60.10408,
+          60.10408,
+          69.0
+        ]
+      ],
+      "triangles": 5414,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "host_sleeve_collision",
+      "expectation": "empty",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "insertion_path_collision",
+      "expectation": "empty",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "screw_passages",
+      "expectation": "empty",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "stop_clearance",
+      "expectation": "empty",
+      "returncode": 1,
+      "passed": true
+    },
+    {
+      "name": "preset_host_0",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 116001.7003,
+      "bounds_mm": [
+        [
+          -60.10408,
+          -18.96251,
+          -16.0
+        ],
+        [
+          60.10408,
+          60.10408,
+          69.0
+        ]
+      ],
+      "triangles": 5414,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "preset_sleeve_0",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5044.3942,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          41.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "preset_sleeve_1",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 1729.4157,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          13.6
+        ]
+      ],
+      "triangles": 3840,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "preset_sleeve_2",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5316.4299,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          41.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "preset_sleeve_3",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 4763.8698,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          41.6
+        ]
+      ],
+      "triangles": 4696,
+      "degenerate_triangles": 0,
+      "passed": true
+    },
+    {
+      "name": "preset_sleeve_4",
+      "expectation": "solid",
+      "returncode": 0,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 2833.8503,
+      "bounds_mm": [
+        [
+          -14.1,
+          -14.1,
+          -0.0
+        ],
+        [
+          14.1,
+          14.1,
+          13.6
+        ]
+      ],
+      "triangles": 3072,
+      "degenerate_triangles": 0,
+      "passed": true
+    }
+  ]
+}

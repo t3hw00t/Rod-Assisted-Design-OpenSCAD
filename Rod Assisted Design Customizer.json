@@ -1,0 +1,31 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "Experimental bamboo - 26 mm sleeve socket": {
+      "type": "1",
+      "dowelDia": "26",
+      "thickness": "6",
+      "chamfer": "3",
+      "legNum": "2",
+      "horzAngle": "90",
+      "vertAngle": "0",
+      "horzAngleList": "[]",
+      "centerLegLength": "50",
+      "lengthLeg": "50",
+      "ribSize": "20",
+      "stopperEnable": "1",
+      "flatBottomEnable": "1",
+      "flatBottomDepth": "3",
+      "flatTopEnable": "1",
+      "flatTopDepth": "3",
+      "teardropEnable": "0",
+      "screwAngleList": "[0, 180]",
+      "screwEnableCS": "1",
+      "screwEnableCB": "0",
+      "screwDia": "4",
+      "screwOffset": "18",
+      "screwDepth": "0",
+      "screwCBDia": "9"
+    }
+  }
+}

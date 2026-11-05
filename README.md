@@ -1,5 +1,9 @@
 Customizable modular connector system for dowel rods, pipes, and tubes!
 
+Experimental fork addition: [replaceable ribbed TPU sleeves for irregular poles](accessories/README.md).
+The original connector geometry and default settings are unchanged. The accessory is a
+fit-test prototype, not a load-rated shelving connection.
+
 This OpenSCAD model was created to construct anything from readily-available and affordable materials such as wooden dowels, PVC pipe, electrical conduit, drinking straws, etc. 
 
 I spent a lot of time developing this OpenSCAD model, if you found this useful and would like to support me, I am accepting tips Ko-Fi tips: https://ko-fi.com/mitch3d
